@@ -17,7 +17,7 @@ const Textarea = (props) => {
     const removespace = ()=>{
         var newtxt="";
         for(var i=0;i<text.length;i++){
-            if(text[i]!=' '){
+            if(text[i]!==' '){
                 newtxt+=text[i];
             }
         }
@@ -55,8 +55,8 @@ const Textarea = (props) => {
         <button style={{margin:"20px"}} onClick={eachword} className="btn btn-primary">Capitalize first letter of each word</button>
         <button style={{margin:"20px"}} onClick={trims} className="btn btn-primary">Remove spaces from start and end</button>
         <p style={{margin:"20px"}}>number of characters - {char}</p>
-        <p style={{margin:"20px"}}>number of words - {text==""?0:words.length}</p>
-        <p style={{margin:"20px"}}>Approx typing time - {text==""?0:words.length*(0.02)} min</p>
+        <p style={{margin:"20px"}}>number of words - {text===""?0:words.length}</p>
+        <p style={{margin:"20px"}}>Approx typing time - {text===""?0:time} min</p>
         </div>
     </div>
   );
