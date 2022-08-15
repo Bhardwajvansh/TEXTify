@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/TEXTify-gh-pages/static/js/main.10d3abcc.js",
-    "index.html": "/TEXTify-gh-pages/index.html",
-    "main.10d3abcc.js.map": "/TEXTify-gh-pages/static/js/main.10d3abcc.js.map"
+    "main.js": "/TEXTify/static/js/main.10d3abcc.js",
+    "index.html": "/TEXTify/index.html",
+    "main.10d3abcc.js.map": "/TEXTify/static/js/main.10d3abcc.js.map"
   },
   "entrypoints": [
     "static/js/main.10d3abcc.js"
